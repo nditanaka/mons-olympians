@@ -11,9 +11,14 @@ public class MenuNavigation : MonoBehaviour
         SceneManager.LoadScene("HomeMenu");
     }
 
-    public void LoadGame()
+    public void LoadScreen()
     {
-        SceneManager.LoadScene("EventScrene");
+        SceneManager.LoadScene("LoadGame");
+    }
+
+    public void EventScreen()
+    {
+        SceneManager.LoadScene("EventScene");
     }
 
     public void QuitGame()
