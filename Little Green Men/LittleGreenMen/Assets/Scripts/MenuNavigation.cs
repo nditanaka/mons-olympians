@@ -16,9 +16,14 @@ public class MenuNavigation : MonoBehaviour
         SceneManager.LoadScene("LoadGame");
     }
 
+    public void OptionsScreen()
+    {
+        SceneManager.LoadScene("OptionsMenu");
+    }
+
     public void EventScreen()
     {
-        SceneManager.LoadScene("EventScene");
+        SceneManager.LoadScene("EventScreen");
     }
 
     public void QuitGame()
@@ -37,5 +42,4 @@ public class MenuNavigation : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-
 }
