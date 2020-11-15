@@ -10,7 +10,7 @@ public class AutoScroll : MonoBehaviour
     void Update()
     {
         //This is used on a quad and is essentially a moviing sphere with an image cast on it
-        BackgroundRend.material.mainTextureOffset += new Vector2(ScrollSpeed * Time.deltaTime, 0f);
+        BackgroundRend.material.mainTextureOffset += new Vector2(0f, ScrollSpeed * Time.deltaTime);
         
     }
 }
