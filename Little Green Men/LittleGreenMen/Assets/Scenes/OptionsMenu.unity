@@ -1882,8 +1882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1127, y: 634}
+  m_AnchoredPosition: {x: 0, y: -0.000053406}
+  m_SizeDelta: {x: 1024, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676541222
 MonoBehaviour:
@@ -2175,14 +2175,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Add functionality to back Button,
+  m_text: 'Fix text positioning
 
 
-    Make volume work,
+    Add functionality to back Button,
 
 
-    Add quit
-    button,
+    Make
+    volume work,
+
+
+    Add quit button,
 
 
     Try and make fullscreen work'

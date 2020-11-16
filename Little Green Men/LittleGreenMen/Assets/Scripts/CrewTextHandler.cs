@@ -9,7 +9,6 @@ public class CrewTextHandler : MonoBehaviour
 
     public void BigShip(string text)
     {
-        BigShipText.text = text;
 
     }
 }
