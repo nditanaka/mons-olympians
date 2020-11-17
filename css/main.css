@@ -6,7 +6,7 @@
 */
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .navigation-bar {
@@ -23,4 +23,12 @@ body {
 .navigation-bar a:hover {
     background-color: white;
     color: black;
+}
+
+.line-break {
+    display: block;
+    width: 20vw;
+    height: 1vh;
+    background: white;
+    margin: 20px auto;
 }
