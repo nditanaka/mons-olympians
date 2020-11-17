@@ -5,8 +5,13 @@
     Date: November 16, 2020
 */
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: black;
+    height: 100%;
 }
 
 .navigation-bar {
@@ -34,3 +39,10 @@ body {
     margin: 20px auto;
 }
 
+.game-image {
+    background-image: url("img/title.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
