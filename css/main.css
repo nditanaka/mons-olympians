@@ -39,7 +39,7 @@ body {
 }
 
 .game-image {
-    background-image: url("img/title.png");
+    background-image: url("../img/title.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
