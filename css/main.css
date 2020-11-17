@@ -8,3 +8,19 @@
 body {
     background-color: white;
 }
+
+.navigation-bar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation-bar a {
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.navigation-bar a:hover {
+    background-color: white;
+    color: black;
+}
