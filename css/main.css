@@ -45,3 +45,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;  
 }
+
+.game-description {
+    color: white;
+    text-align: center;
+}
+
+.game-reason {
+    color: white;
+    text-align: center;
+}
+
+.team {
+    color: white;
+}
