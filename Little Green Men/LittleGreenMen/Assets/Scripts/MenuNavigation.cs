@@ -28,8 +28,7 @@ public class MenuNavigation : MonoBehaviour
 
     public void QuitGame()
     {
-        UnityEngine.Debug.Log("App has been quit");
-        //Application.Quit;
+        Application.Quit();
     }
 
     // Start is called before the first frame update
