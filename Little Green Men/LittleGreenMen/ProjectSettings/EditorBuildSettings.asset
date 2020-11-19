@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeMenu.unity
+    guid: 9aebcf9182efe8a4ab5e89afd0b88d79
+  - enabled: 1
+    path: Assets/Scenes/CrewSelection.unity
+    guid: d77f2cae17eb8484da3d907b3826044e
+  - enabled: 1
+    path: Assets/Scenes/ShipSelection.unity
+    guid: 7fbdde6b9dd57894f880e4b03234e39d
+  - enabled: 1
+    path: Assets/Scenes/EventScreen.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: 89ca4c2f6e77b064fb45a20902f06584
   m_configObjects: {}
